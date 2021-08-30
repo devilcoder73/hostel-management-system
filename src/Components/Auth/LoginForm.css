@@ -1,8 +1,15 @@
 .login-form {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  margin: 200px auto;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.login-form h1 {
+  text-align: center;
+  color: #05192d;
+  font-size: 28px;
+  margin: 0;
 }
 
 .login-form .login-form-input {

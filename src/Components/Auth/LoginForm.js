@@ -51,6 +51,7 @@ const LoginForm = () => {
 
   return (
     <form className="login-form" onSubmit={formSubmissionHandler}>
+      <h1>Hostel Management</h1>
       <Input
         className={emailInputClass}
         label="E-mail address"

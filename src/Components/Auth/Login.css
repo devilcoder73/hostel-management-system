@@ -1,22 +1,37 @@
 .main-login {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  background: url(https://cdn.datacamp.com/main-app/assets/rebrand/backgrounds/sign-in-01a6c894c2c039d4d395b8f490c13555c5d53e6948f55199bd7515682994cd6f.svg);
+  background-position: center -240px;
+  background-repeat: no-repeat;
+  background-color: #05192d;
 }
 
-.image-section {
-  width: 60%;
-  opacity: 0.7;
-  background: url("https://lucknow.iiitiansnetwork.com/img/Lucknow/3.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
+.login-title {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  width: 35%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.login-title h1 {
+  margin: 0;
 }
 
 .login-form-section {
-  background-image: url("https://i.pinimg.com/originals/48/65/8b/48658b284e37b9d5bb354213847be3b1.jpg");
+  background-color: #fff;
   color: #05192d;
   display: flex;
-  width: 40%;
-  flex-direction: column;
-  border: 5px;
+  width: 30%;
+  box-shadow: 0 2px 4px -1px rgb(5 25 45 / 30%);
+  margin: 0 auto;
+  padding: 30px 0;
+  border-radius: 5px;
 }
 
 main,
